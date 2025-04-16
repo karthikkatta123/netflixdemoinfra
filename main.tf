@@ -7,7 +7,7 @@ count = 4
 ami = "ami-080b1a55a0ad28c02"
 instance_type = "t2.medium"
 key_name = "netflix"
-vpc_security_group_ids = ["sg-05f044979e305302e"]
+vpc_security_group_ids = ["sg-065d92f85adbabe93"]
 tags = {
 Name = var.instance_names[count.index]
 }
