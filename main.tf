@@ -4,7 +4,7 @@ region = "us-east-1"
 
 resource "aws_instance" "one" {
 count = 4
-ami = "ami-0ddc798b3f1a5117e"
+ami = "ami-080b1a55a0ad28c02"
 instance_type = "t2.medium"
 key_name = "netflix"
 vpc_security_group_ids = ["sg-05f044979e305302e"]
